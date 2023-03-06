@@ -1,0 +1,5 @@
+.footer__wrapper {
+    position: sticky;
+	display: flex;
+	align-items: center;
+}

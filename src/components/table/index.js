@@ -67,7 +67,7 @@ export const Table = ({ rows = 20 }) => {
             title: 'Image',
             dataIndex: 'image',
             key: 'image',
-            render: (url) => <Image width={150} src={url} preview={false} />
+            render: (url) => <Image width={150} src={url} preview={true} />
         },
     ];
 

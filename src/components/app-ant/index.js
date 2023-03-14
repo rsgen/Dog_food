@@ -1,4 +1,6 @@
 import { Col, Layout, Row, Slider } from 'antd';
+import { AppleOutlined } from '@ant-design/icons';
+import { DatePicker } from 'antd';
 
 import { Table } from '../table';
 import s from './styles.module.css';
@@ -12,7 +14,11 @@ export const AntApp = () => {
 
     return (
         <Layout>
-            <Header className={s.header}>Header</Header>
+            <Header className={s.header}>
+                Header
+                <AppleOutlined rotate={45}/>
+                <DatePicker autoFocus={true} />
+                </Header>
             <Content>
                 <Row>
                     <Col xs={24} md={{ span: 16, offset: 4 }}>

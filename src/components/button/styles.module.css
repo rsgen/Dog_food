@@ -1,5 +1,5 @@
 .button {
-    padding: 6px 11px;
+    padding: 10px 18px;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -27,5 +27,15 @@
 }
 
 .button_type_secondary:hover {
+    border-color: #7B8E98;
+}
+
+.button_type_border {
+    background-color: transparent;
+    border-color: #CFD8DC;
+    color: #1A1A1A;
+}
+
+.button_type_border:hover {
     border-color: #7B8E98;
 }
